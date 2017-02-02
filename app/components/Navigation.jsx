@@ -9,10 +9,10 @@ var Navigation = () => {
         <ul className="menu">
           <li className="menu-text">React Timer App</li>
           <li>
-            <IndexLink to="/" activeClassName="active-link">Timer</IndexLink>
+            <IndexLink to="/timer" activeClassName="active-link">Timer</IndexLink>
             </li>
           <li>
-            <Link to="/" activeClassName="active-link">CountDown</Link>
+            <Link to="/countdown" activeClassName="active-link">CountDown</Link>
           </li>
 
         </ul>

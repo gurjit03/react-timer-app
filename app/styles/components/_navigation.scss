@@ -4,6 +4,10 @@
   color : $nav-color;
 }
 
+.active-link {
+  font-weight: bold;
+}
+
 .menu {
   display: flex;
   &-text {
